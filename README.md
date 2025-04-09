@@ -21,5 +21,9 @@ A task management API built with **Laravel 11**, using **Sanctum** for authentic
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/laravel-task-api.git
-cd laravel-task-api
+git clone https://github.com/asutoshjspoffcial/task.git
+cd task
+composer install
+php artisan migrate
+php artisan serve
+
